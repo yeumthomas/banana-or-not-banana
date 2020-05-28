@@ -1,29 +1,10 @@
-# chapter09
+# Banana or Not-A-Banana
 
-## Project setup
-```
-npm install
-```
+This simple web app uses Tensorflow.js for lightweight image classification. Training data was sourced from MobileNet, a convolutional neural network model with data on various objects - including a banana.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### Technologies Used:
+ - Tensorflow.js
+ - Vue.js
+ - typescript
+ - HTML / CSS
+ - 
