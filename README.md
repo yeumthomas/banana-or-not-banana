@@ -9,4 +9,4 @@ This simple web app uses Tensorflow.js for lightweight image classification. Tra
  - HTML / CSS
  
 
-#### Props to Mr. Jian-Yang for inspiration for this project.
+#### Props to Mr. Jian-Yang for inspiration for this project. 
