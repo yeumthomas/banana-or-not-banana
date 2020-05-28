@@ -7,4 +7,6 @@ This simple web app uses Tensorflow.js for lightweight image classification. Tra
  - Vue.js
  - typescript
  - HTML / CSS
- - 
+ 
+
+#### Props to Mr. Jian-Yang for inspiration for this project.
