@@ -25,6 +25,11 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
     HelloWorld,
   },
 })
+export interface TensorInformation {
+  className: string;
+  probability: number;
+}
+
 export default class HelloWorld extends Vue {
   private readonly classifier: ImageClassifier = new ImageClassifier();
   private tensors: TensorInformation[] | null = null;
@@ -51,6 +56,7 @@ export default class HelloWorld extends Vue {
     })
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
