@@ -1,13 +1,9 @@
 <template>
   <div id="app">
-    <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav>
-          <b-nav-item to="/">Classifier</b-nav-item>
-          <b-nav-item to="/pose">Pose</b-nav-item>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
+    <el-menu :default-active="activeIndex" class="el-menu" mode="horizontal" @select="handleSelect">
+      <el-menu-item index="1"><a href="/">Banana</a></el-menu-item>
+      <el-menu-item index="2" ><a href="/pose">Pose</a></el-menu-item>
+    </el-menu>
     <router-view/>
   </div>
 </template>
@@ -21,7 +17,7 @@
   color: #2c3e50;
 }
 
-#nav a {
+.el-menu a {
   font-weight: bold;
   color: #2c3e50;
 }
