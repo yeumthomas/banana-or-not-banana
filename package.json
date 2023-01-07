@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-typescript": "^3.7.0",
-    "@vue/cli-service": "^3.7.0",
+    "@vue/cli-service": "^5.0.8",
     "element-theme-chalk": "^2.13.2",
     "i": "^0.3.6",
     "npm": "^6.14.5",
